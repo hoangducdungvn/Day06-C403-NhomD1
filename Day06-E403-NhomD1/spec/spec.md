@@ -11,7 +11,8 @@
 
 ## 2. Lát cắt để build
 
-Thay vì cố làm cả sản phẩm, nhóm chọn ra lát cắt nhỏ nhất đủ để chứng minh ý tưởng. Lát cắt này gói gọn trong một câu: một người dùng, một công việc, một quyết định mà AI đưa ra, và một kết quả trả về. Đây mới là phần nhóm thật sự dựng nên và mang đi demo.
+Cho học viên khoá AI thực chiến đang đọc slide bài giảng, prototype dùng AI để augment bước tạo analogy cá nhân hóa:
+
 
 ## 3. AI Product Canvas
 
@@ -41,7 +42,8 @@ Human role: reviewer — đọc analogy, kiểm tra bảng mapping, tự đánh 
 
 ## 6. Những kiểu lỗi đáng lo nhất
 
-Liệt kê một đến ba kiểu lỗi nguy hiểm nhất của sản phẩm. Với mỗi kiểu, nói rõ ba điều: lỗi thường xuất hiện khi nào (chẳng hạn đầu vào mơ hồ, câu hỏi ngoài phạm vi, dữ liệu thiếu, hay người dùng cố tình đánh lừa), nếu xảy ra thì ai chịu thiệt và nặng đến đâu, và prototype sẽ xử lý bằng cách nào — hỏi lại, hiện nguồn, để con người duyệt, cho hoàn tác, hay có sẵn phương án dự phòng.
+AI sinh analogy nghe hay nhưng bỏ sót chiều vector space của Embedding -> Không giải thích đúng thuật ngữ → User hiểu sai mà nghĩ mình hiểu đúng → Dạng hallucination "nghe hợp lý" — nguy hiểm nhất.
+
 
 ## 7. Kế hoạch kiểm thử và bằng chứng demo
 
@@ -59,9 +61,7 @@ Owner kiểm thử path này là: [tên thành viên phụ trách test/failure p
 
 ## 8. Phân công
 
-Cuối cùng, ghi rõ ai phụ trách phần nào — người viết và kiểm thử prompt, người dựng giao diện, người giữ repo, người viết kịch bản demo, và người lo phần bằng chứng. Mỗi thành viên cần có một phần đủ rõ để tự mình giải thích được khi demo.
-
-Dũng: giữ repo, evidence
+Dũng: giữ repo, evidence, slide
 Phú: Code FE
 Khôi: Code BE
 Vinh: Code AI core
