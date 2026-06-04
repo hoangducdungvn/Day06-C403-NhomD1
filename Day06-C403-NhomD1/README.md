@@ -1,11 +1,5 @@
 # 🚀 Bài Làm Hackathon - Nhóm D1
 
-> **Môn học:** Lập trình hướng đối tượng  
-> **Lớp:** C403 - Nhóm D1  
-> **Ngày:** 04/06/2026
-
----
-
 ## 👥 Thành Viên Nhóm
 
 | STT | Họ và Tên | MSSV |
