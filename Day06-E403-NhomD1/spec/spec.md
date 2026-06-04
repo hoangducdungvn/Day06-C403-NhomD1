@@ -61,7 +61,7 @@ Owner kiểm thử path này là: [tên thành viên phụ trách test/failure p
 
 ## 8. Phân công
 
-Dũng: giữ repo, evidence, slide
+Dũng: giữ repo, evidence, slide, api key admin
 Phú: Code FE
 Khôi: Code BE
 Vinh: Code AI core
