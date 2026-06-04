@@ -1,0 +1,17 @@
+# Core LLM / Agent framework
+langchain>=1.0.0
+langgraph>=0.6.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.1.0
+langchain-ollama>=0.3.0
+langchain-openai>=1.2.2
+
+# Data validation
+pydantic>=2.8.0
+
+# Environment variables
+python-dotenv>=1.0.1
+
+# Web server
+fastapi>=0.115.0
+uvicorn>=0.34.0
